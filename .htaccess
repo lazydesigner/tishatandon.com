@@ -1,0 +1,81 @@
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f
+Options -Indexes
+#RewriteCond %{HTTPS} off
+#RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+ReWriteRule ^$ home.php [NC,L]
+
+#CATEGORY
+RewriteRule ^category/anal-escorts-in-lucknow([/]?)$ category/anal-escorts-in-lucknow.php [NC,L]
+RewriteRule ^category/aunty-escorts-in-lucknow([/]?)$ category/aunty-escorts-in-lucknow.php [NC,L]
+RewriteRule ^category/banglore-escort-video([/]?)$ category/banglore-escort-video.php [NC,L]
+RewriteRule ^category/call-girls-in-lucknow([/]?)$ category/call-girls-in-lucknow.php [NC,L]
+RewriteRule ^category/casual-sex-in-lucknow([/]?)$ category/casual-sex-in-lucknow.php [NC,L]
+RewriteRule ^category/college-escorts-in-lucknow([/]?)$ category/college-escorts-in-lucknow.php [NC,L]
+RewriteRule ^category/dating-service-lucknow([/]?)$ category/dating-service-lucknow.php [NC,L]
+RewriteRule ^category/elite-escort-lucknow([/]?)$ category/elite-escort-lucknow.php [NC,L]
+RewriteRule ^category/escorts-happy-hour([/]?)$ category/escorts-happy-hour.php [NC,L]
+RewriteRule ^category/free-escorts-in-lucknow([/]?)$ category/free-escorts-in-lucknow.php [NC,L]
+RewriteRule ^category/girls-for-long-drive([/]?)$ category/girls-for-long-drive.php [NC,L]
+RewriteRule ^category/happy-ending-service([/]?)$ category/happy-ending-service.php [NC,L]
+RewriteRule ^category/high-class-escorts-in-lucknow([/]?)$ category/high-class-escorts-in-lucknow.php [NC,L]
+RewriteRule ^category/high-end-lucknow-escort([/]?)$ category/high-end-lucknow-escort.php [NC,L]
+RewriteRule ^category/hot-chicks-lucknow([/]?)$ category/hot-chicks-lucknow.php [NC,L]
+RewriteRule ^category/lucknow-special-offers([/]?)$ category/lucknow-special-offers.php [NC,L]
+RewriteRule ^category/luxury-service-in-lucknow([/]?)$ category/luxury-service-in-lucknow.php [NC,L]
+RewriteRule ^category/newly-married-escorts-in-lucknow([/]?)$ category/newly-married-escorts-in-lucknow.php [NC,L]
+RewriteRule ^category/noughty-girls-in-lucknow([/]?)$ category/noughty-girls-in-lucknow.php [NC,L]
+RewriteRule ^category/party-escorts-in-lucknow([/]?)$ category/party-escorts-in-lucknow.php [NC,L]
+RewriteRule ^category/russian-escort-in-lucknow([/]?)$ category/russian-escort-in-lucknow.php [NC,L]
+RewriteRule ^category/shemale-escorts-in-lucknow([/]?)$ category/shemale-escorts-in-lucknow.php [NC,L]
+RewriteRule ^category/south-indian-escorts-in-lucknow([/]?)$ category/south-indian-escorts-in-lucknow.php [NC,L]
+RewriteRule ^category/strip-club-lucknow([/]?)$ category/strip-club-lucknow.php [NC,L]
+RewriteRule ^category/top-rated-escorts-in-lucknow([/]?)$ category/top-rated-escorts-in-lucknow.php [NC,L]
+RewriteRule ^category/vip-indian-escorts-in-lucknow([/]?)$ category/vip-indian-escorts-in-lucknow.php [NC,L]
+
+
+#Location
+RewriteRule ^location/adil-nagar([/]?)$ location/adil-nagar.php [NC,L]
+RewriteRule ^location/aliganj([/]?)$ location/aliganj.php [NC,L]
+RewriteRule ^location/amar-shaheed-path([/]?)$ location/amar-shaheed-path.php [NC,L]
+RewriteRule ^location/amausi([/]?)$ location/amausi.php [NC,L]
+RewriteRule ^location/aminabad([/]?)$ location/aminabad.php [NC,L]
+RewriteRule ^location/butler-colony([/]?)$ location/butler-colony.php [NC,L]
+RewriteRule ^location/charbagh([/]?)$ location/charbagh.php [NC,L]
+RewriteRule ^location/chinhat([/]?)$ location/chinhat.php [NC,L]
+RewriteRule ^location/chowk([/]?)$ location/chowk.php [NC,L]
+RewriteRule ^location/faizabad-road([/]?)$ location/faizabad-road.php [NC,L]
+RewriteRule ^location/gomti-nagar([/]?)$ location/gomti-nagar.php [NC,L]
+RewriteRule ^location/hazratganj([/]?)$ location/hazratganj.php [NC,L]
+RewriteRule ^location/indira-nagar([/]?)$ location/indira-nagar.php [NC,L]
+RewriteRule ^location/jankipuram([/]?)$ location/jankipuram.php [NC,L]
+RewriteRule ^location/lda-colony([/]?)$ location/lda-colony.php [NC,L]
+RewriteRule ^location/mahanagar([/]?)$ location/mahanagar.php [NC,L]
+RewriteRule ^location/sushant-golf-city([/]?)$ location/sushant-golf-city.php [NC,L]
+RewriteRule ^location/transport-nagar([/]?)$ location/transport-nagar.php [NC,L]
+
+#Profiles
+RewriteRule ^profile/big-ass-call-girls-in-lucknow([/]?)$ profile/big-ass-call-girls-in-lucknow.php [NC,L]
+RewriteRule ^profile/big-boobs-call-girl-in-lucknow([/]?)$ profile/big-boobs-call-girl-in-lucknow.php [NC,L]
+RewriteRule ^profile/blowjob-escort-in-lucknow([/]?)$ profile/blowjob-escort-in-lucknow.php [NC,L]
+RewriteRule ^profile/bursty-escort-in-lucknow([/]?)$ profile/bursty-escort-in-lucknow.php [NC,L]
+RewriteRule ^profile/cheap-call-girls-in-lucknow([/]?)$ profile/cheap-call-girls-in-lucknow.php [NC,L]
+RewriteRule ^profile/couple-escort-in-lucknow([/]?)$ profile/couple-escort-in-lucknow.php [NC,L]
+RewriteRule ^profile/dating-escort-in-lucknow([/]?)$ profile/dating-escort-in-lucknow.php [NC,L]
+RewriteRule ^profile/handjob-escort-in-lucknow([/]?)$ profile/handjob-escort-in-lucknow.php [NC,L]
+RewriteRule ^profile/independent-escort-in-lucknow([/]?)$ profile/independent-escort-in-lucknow.php [NC,L]
+RewriteRule ^profile/massage-escort-in-lucknow([/]?)$ profile/massage-escort-in-lucknow.php [NC,L]
+RewriteRule ^profile/mujra-escort-in-lucknow([/]?)$ profile/mujra-escort-in-lucknow.php [NC,L]
+RewriteRule ^profile/prostitute-in-lucknow([/]?)$ profile/prostitute-in-lucknow.php [NC,L]
+RewriteRule ^profile/punjabi-call-girl-in-lucknow([/]?)$ profile/punjabi-call-girl-in-lucknow.php [NC,L]
+RewriteRule ^profile/randi-in-lucknow([/]?)$ profile/randi-in-lucknow.php [NC,L]
+RewriteRule ^profile/russian-call-girl-in-lucknow([/]?)$ profile/russian-call-girl-in-lucknow.php [NC,L]
+RewriteRule ^profile/women-seeking-men-in-lucknow([/]?)$ profile/women-seeking-men-in-lucknow.php [NC,L]
+
+
+
+
+#Dashboard
+# ReWriteRule ^auth-log([/]?)$ dashboard/login.php [NC,L]
+# ReWriteRule ^logout([/]?)$ dashboard/logout.php [NC,L]
